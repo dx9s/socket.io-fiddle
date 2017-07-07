@@ -1,6 +1,16 @@
 
 # Socket.IO Fiddle issue-2999 report
 
+UPDATE: Please make sure you are updated to a recent version of node.js!
+
+```
+$ node --version
+v8.1.3
+dx@s76:~$ 
+```
+
+It is known to have issues with older version (v4.2.6 comes with Ubuntu 16.04 LTS)
+
 ```
 $ npm install
 $ npm start # run the server
