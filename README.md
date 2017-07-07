@@ -12,7 +12,9 @@ accept the self-sign certificate (after running generate.sh to make them) as thi
 is for testing purposes.
 
 You will get the following:
+```
 server listening on port 3001
 connect xxxxxxxxxxxxxxxxxxxx
 node: ../src/util-inl.h:196: TypeName* node::Unwrap(v8::Local<v8::Object>) [with TypeName = node::TLSWrap]: Assertion `(object->InternalFieldCount()) > (0)' failed.
 Aborted
+```
